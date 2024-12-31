@@ -45,6 +45,8 @@ def load_omnimodel(load_documents: bool, load_media: bool, load_web: bool):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     if load_documents:
         print("[LOG] ✅ Loading OCR Model")
+        # 这句有问题，要自己改,少了marker依赖
+        # print(load_all_models())
         shared_state.model_list = load_all_models()
         print("[LOG] ✅ Loading Vision Model")
         # if device == "cuda":

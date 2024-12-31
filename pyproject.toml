@@ -43,12 +43,12 @@ webdriver-manager = "^4.0.1"
 img2pdf = "^0.5.1"
 matplotlib = "^3.9.0"
 timm = "^1.0.7"
-flash-attn = "^2.5.9"
+
 art = "^6.2"
 gradio = "^4.37.1"
 nltk = "^3.8.1"
 marker-pdf = "^0.2.16"
-
+#flash-attn = "^2.5.9"
 [tool.poetry.scripts]
 omniparse = "server:main"
 

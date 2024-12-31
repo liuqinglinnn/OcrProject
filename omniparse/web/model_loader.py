@@ -114,7 +114,7 @@ def load_onnx_all_MiniLM_l6_v2():
     from omniparse.web.onnx_embedding import DefaultEmbeddingModel
 
     model_path = "models/onnx.tar.gz"
-    model_url = "https://unclecode-files.s3.us-west-2.amazonaws.com/onnx.tar.gz"
+    model_url = "https://pypi.tuna.tsinghua.edu.cn/packages/2c/6a/39b0580858589a67c3322aabc2634f158391ffbf98fa410127533e7f1495/onnx-1.12.0.tar.gz"
     __location__ = os.path.realpath(
         os.path.join(os.getcwd(), os.path.dirname(__file__))
     )
